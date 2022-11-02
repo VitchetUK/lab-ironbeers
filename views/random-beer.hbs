@@ -1,0 +1,9 @@
+<div>
+  <div class='card'>
+    {{#each dataRandom}}
+    {{> oneBeer this}}
+      <p>Pair well with: {{this.food_pairing}}</p>
+      <p>Brewers Tips: {{this.brewers_tips}}</p>
+    {{/each}}
+  </div>
+</div>
